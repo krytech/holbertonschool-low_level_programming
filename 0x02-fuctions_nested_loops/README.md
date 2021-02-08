@@ -1,1 +1,0 @@
-fuctions and nested loops proj
