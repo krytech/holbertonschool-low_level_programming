@@ -1,6 +1,1 @@
-#ifndef HOLBERTON.H
-#define HOLBERTON.H
-
-int _putchar(char c);
-
-#endif
+int _putchar(char);
