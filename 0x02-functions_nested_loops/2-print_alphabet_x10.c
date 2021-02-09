@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *print_alphabet_x10 - prints the lowercase alphabet 10 times on new lines
+ *print_alphabet - prints the lowercase alphabet on a new line
  */
 
 void print_alphabet(void)
@@ -14,6 +14,11 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
+
+/**
+ *print_alphabet_x10 - prints the lowercase alphabet 10 times on new lines
+ */
+
 
 void print_alphabet_x10(void)
 {
