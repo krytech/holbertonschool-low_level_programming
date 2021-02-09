@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/** 
+/**
  *print_alphabet - print lowercase alphabet followed by a new line
  */
 
