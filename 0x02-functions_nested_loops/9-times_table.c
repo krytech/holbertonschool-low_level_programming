@@ -16,7 +16,11 @@ void times_table(void)
 		{
 			product = (row * column);
 
-			if (product <= 9)
+			if (column == 0)
+			{
+				_putchar(product + '0');
+			}
+			else if (product <= 9)
 			{
 				_putchar(' ');
 				_putchar(' ');
