@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strncat - copies a string using n value
+ * *_strncat - copies a string using n value
  * @src: string to use
  * @dest: string to copy to
  * @n: characters of string to copy
