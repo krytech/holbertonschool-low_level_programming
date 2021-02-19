@@ -2,7 +2,7 @@
 
 /**
  * leet - replace letters with numbers to make it leet
- * @c: character
+ * @a: character to capitalize
  * Return: full string with changes
  */
 
