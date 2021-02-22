@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * memcpy - copies n bytes from src to dest
+ * _memcpy - copies n bytes from src to dest
  * @n: bytes to copy
  * @src: copy from
  * @dest: copy to
