@@ -1,5 +1,12 @@
 #include "holberton.h"
 
+/**
+ * match - helper to check after wc for match
+ * @s1: string 1
+ * @s2: string 2
+ * @afterwc: placeholder for after wc
+ * Return: 1 if matched, 0 if not
+ */
 
 int match(char *s1, char *s2, char *afterwc)
 {
@@ -22,6 +29,12 @@ int match(char *s1, char *s2, char *afterwc)
 		return (match(s1 + 1, afterwc, afterwc));
 }
 
+/**
+ * wildcmp - compare two strings with wc
+ * @s1: string 1
+ * @s2: string 2
+ * Return: 1 if matched, 0 if not)
+ */
 
 int wildcmp(char *s1, char *s2)
 {
