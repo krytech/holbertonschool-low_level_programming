@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - prints the sum of two ints
+ * @argc: size of the array
+ * @argv: array containing the values
+ * Return: multiplication of two numbers, otherwise Error
+ */
+
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
