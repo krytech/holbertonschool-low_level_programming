@@ -24,7 +24,7 @@ int is_num(char *s)
  * @argc: size array of numbers
  * @argv: array storing numbers
  * Return: sum of all numbers, otherwise Error
- */ 
+ */
 
 int main(int argc, char *argv[])
 {
