@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * is_num - checks to see if the values are only numbers
+ * @s: string to check
+ * Return: 0 if not numbers, 1 if all numbers
+ */
+
 int is_num(char *s)
 {
 	int i;
@@ -13,7 +19,12 @@ int is_num(char *s)
 	return (1);
 }
 
-
+/**
+ * main - adds all numbers up
+ * @argc: size array of numbers
+ * @argv: array storing numbers
+ * Return: sum of all numbers, otherwise Error
+ */ 
 
 int main(int argc, char *argv[])
 {
