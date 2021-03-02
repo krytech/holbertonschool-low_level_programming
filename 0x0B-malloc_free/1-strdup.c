@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * strdup - allocates memory and copies a string from input
+ * _strdup - allocates memory and copies a string from input
  * @str: string to copy
  * Return: pointer to copied string, otherwise NULL
  */
