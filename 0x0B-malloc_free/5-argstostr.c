@@ -51,7 +51,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 
-        /* copying string with new lines */
+	/* copying string with new lines */
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; j < _strlen(av[i]); j++)
