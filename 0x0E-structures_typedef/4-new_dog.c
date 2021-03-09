@@ -27,13 +27,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 	while (owner[o_len])
 		o_len++;
 
-	n_ph = malloc(n_len + 1);
+	n_ph = malloc(sizeof(char) * n_len + 1);
 	if (!n_ph)
 	{
 		free(newdog);
 		return (NULL);
 	}
-	o_ph = malloc(o_len + 1);
+	o_ph = malloc(sizeof(char) * o_len + 1);
 	if (!o_ph)
 	{
 		free(n_ph);
