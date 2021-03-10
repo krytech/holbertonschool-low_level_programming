@@ -3,8 +3,8 @@
 
 /**
  * main - calculates 2 numbers with an arg
- * @argc - amount of arguments
- * @argv - array with arguments
+ * @argc: amount of arguments
+ * @argv: array with arguments
  * Return: the answer, otherwise Error
  */
 
