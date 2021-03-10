@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error \n");
+		printf("Error\n");
 		exit(98);
 	}
 
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 						    atoi(argv[3])));
 	else
 	{
-		printf("Error \n");
+		printf("Error\n");
 		exit(99);
 	}
 	return (0);
