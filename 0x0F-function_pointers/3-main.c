@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 /**
- *
+ * main - calculates 2 numbers with an arg
+ * @argc - amount of arguments
+ * @argv - array with arguments
+ * Return: the answer, otherwise Error
  */
 
 int main(int argc, char *argv[])
@@ -10,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error 1\n");
+		printf("Error \n");
 		exit(98);
 	}
 
@@ -19,7 +22,7 @@ int main(int argc, char *argv[])
 						    atoi(argv[3])));
 	else
 	{
-		printf("Error 2\n");
+		printf("Error \n");
 		exit(99);
 	}
 	return (0);
