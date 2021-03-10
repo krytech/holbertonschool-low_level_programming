@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_function - checks to see which sign & function to use
+ * get_op_func - checks to see which sign & function to use
  * @s: sign to match
  * Return: pointer to the correct sign function
  */
