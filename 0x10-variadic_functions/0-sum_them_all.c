@@ -9,19 +9,19 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list add_list;
+	va_list sum_list;
 	int sum = 0;
 	unsigned int i;
 
 	if (!n)
 		return (0);
 
-	va_start(add_list, n);
+	va_start(sum_list, n);
 
 	for (i = 0; i < n; i++)
-		sum += va_arg(add_list, int);
+		sum += va_arg(sum_list, int);
 
-	va_end(add_list);
+	va_end(sum_list);
 
 	return (sum);
 }
