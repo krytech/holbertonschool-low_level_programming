@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 /**
- *
+ * main - prints opcode based on inputed arguments
+ * @argc: number of arguments
+ * @argv: argument values
+ * Return: opcode based on arguments
  */
 
 int main(int argc, char *argv[])
