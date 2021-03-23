@@ -23,7 +23,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		return (1);
 	}
 
-	for (i = 0; i < index - 1; i++) /* go to index place in the list */
+	/* go to index place in the list */
+	for (i = 0; i < index - 1 && temp; i++)
 		temp = temp->next;
 	if (temp == NULL) /* if index is out of list range */
 		return (-1);
