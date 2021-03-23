@@ -30,13 +30,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 
 	temp = *head;
-	if (idx == 1) /* if idx is 1 */
-	{
-		temp->next = new_node;
-		new_node->next = (temp->next)->next;
-		return (new_node);
-	}
-
 	for (i = 0; i < idx - 1; i++) /* when idx is > than 0 go through list */
 		temp = temp->next;
 	if (temp == NULL) /* if idx is > than the number of nodes in the list */
