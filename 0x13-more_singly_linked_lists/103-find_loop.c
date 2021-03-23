@@ -10,11 +10,11 @@ listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *slow_ptr, *fast_ptr;
 
-/* both start at head */
+	/* both start at head */
 	slow_ptr = head;
 	fast_ptr = head;
 
-/* go through the loop until a match is found */
+	/* go through the loop until a match is found */
 	while (slow_ptr != NULL && fast_ptr != NULL && fast_ptr->next != NULL)
 	{
 		slow_ptr = slow_ptr->next;
