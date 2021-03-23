@@ -15,7 +15,7 @@ listint_t *find_listint_loop(listint_t *head)
 	fast_ptr = head;
 
 /* go through the loop until a match is found */
-	while (!slow_ptr && !fast_ptr && fast_ptr->next != NULL)
+	while (slow_ptr != NULL && fast_ptr != NULL && fast_ptr->next != NULL)
 	{
 		slow_ptr = slow_ptr->next;
 		fast_ptr = fast_ptr->next->next;
