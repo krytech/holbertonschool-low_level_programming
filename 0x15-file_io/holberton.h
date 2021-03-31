@@ -5,11 +5,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#include <unistd.h>
-
-#include <stdio.h>
-
-#include <stdlib.h>
+#include <unistd.h> /* read, write, close */
+#include <stdio.h> /* dprintf */
+#include <stdlib.h> /* malloc, free */
 
 ssize_t read_textfile(const char *filename, size_t letters);
 int create_file(const char *filename, char *text_content);
