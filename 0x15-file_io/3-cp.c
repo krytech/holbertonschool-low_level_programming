@@ -36,7 +36,7 @@ int exit_case(int error, char *s, int fd)
  * Return: 0 if success, 97-100 if error
  */
 
-int copy_file(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int fd_1, fd_2; /* file descriptors for from and to files */
 	int read_it, write_it;
