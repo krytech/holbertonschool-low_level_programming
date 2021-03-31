@@ -30,7 +30,7 @@ int exit_case(int error, char *s, int fd)
 }
 
 /**
- * copy_file - copies the contents of one file to another
+ * main - copies the contents of one file to another
  * @argc: argument counter (3)
  * @argv: argument values, file 1, file 2
  * Return: 0 if success, 97-100 if error
