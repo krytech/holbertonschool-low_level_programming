@@ -3,6 +3,7 @@
 
 #include <stddef.h> /* size_t */
 #include <stdio.h> /* printf */
+#include <stdlib.h> /* malloc */
 
 /**
  * struct dlistint_s - doubly linked list
