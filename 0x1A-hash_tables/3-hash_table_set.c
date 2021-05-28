@@ -10,7 +10,7 @@
  */
 
 int add_hash_node(hash_table_t *ht, const char *key, const char *value,
-				  unsigned long int index)
+	unsigned long int index)
 {
 	hash_node_t *node = NULL;
 	char *val;
